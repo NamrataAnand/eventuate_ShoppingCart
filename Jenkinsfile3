@@ -1,0 +1,42 @@
+pipeline {
+	agent none    
+stages {
+	stage('Remove CDCService') {
+		agent any
+		steps {
+			sh 'docker rm cdcservice --force'
+		}
+	}
+	stage('Remove Kafka') {
+		agent any
+		steps {
+			sh 'docker rm kafka --force'
+		}
+	}
+	stage('Remove Zookeeper') {
+		agent any
+		steps {
+			sh 'docker rm zookeeper --force'
+		}
+	}
+	stage('Remove Mongodb') {
+		agent any
+		steps {
+			sh 'docker rm mongodb --force'
+		}
+	}
+	stage('Remove Mysql') {
+		agent any
+		steps {
+			sh 'docker rm mysql --force'
+		}
+	}
+	stage('Remove Network') {
+		agent any
+		steps {
+			sh 'docker network rm my-net'
+		}
+	}
+	
+  }
+}

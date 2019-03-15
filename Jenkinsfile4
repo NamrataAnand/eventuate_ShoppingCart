@@ -1,0 +1,30 @@
+pipeline {
+	agent none    
+stages {
+	stage('Remove Order Service') {
+		agent any
+		steps {
+			sh 'docker rm order-service --force'
+		}
+	}
+	stage('Remove Order View Service') {
+		agent any
+		steps {
+			sh 'docker rm order-view-service --force'
+		}
+	}
+	stage('Remove Customer Service') {
+		agent any
+		steps {
+			sh 'docker rm customer-service --force'
+		}
+	}
+	stage('Remove Invoice Service') {
+		agent any
+		steps {
+			sh 'docker rm invoice-service --force'
+		}
+	}
+	
+  }
+}

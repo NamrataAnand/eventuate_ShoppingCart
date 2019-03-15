@@ -1,0 +1,17 @@
+com/mainclass/orderservice/saga/createorder/CreateOrderSagaData.class
+com/mainclass/orderservice/saga/createorder/CreateOrderSaga.class
+com/mainclass/orderservice/webapi/CreateOrderResponse.class
+com/mainclass/orderservice/controller/OrderController.class
+com/mainclass/orderservice/proxy/OrderServiceProxy.class
+com/mainclass/orderservice/service/OrderService.class
+com/mainclass/orderservice/model/OrderRepository.class
+com/mainclass/orderservice/commandhandlers/OrderServiceCommandHandlers.class
+com/mainclass/orderservice/commandhandlers/OrderServiceCommandHandlersConfiguration.class
+com/mainclass/orderservice/proxy/InvoiceServiceProxy.class
+com/mainclass/orderservice/swagger/SwaggerConfig.class
+com/mainclass/orderservice/model/Order.class
+com/mainclass/orderservice/model/OrderDomainEventPublisher.class
+com/mainclass/orderservice/service/OrderServiceConfiguration.class
+com/mainclass/orderservice/webapi/CreateOrderRequest.class
+com/mainclass/orderservice/proxy/CustomerServiceProxy.class
+com/mainclass/orderservice/OrderServiceApplication.class

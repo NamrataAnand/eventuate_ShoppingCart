@@ -1,0 +1,12 @@
+com/mainclass/customerservice/swagger/SwaggerConfig.class
+com/mainclass/customerservice/webapi/CreateCustomerRequest.class
+com/mainclass/customerservice/service/CustomerServiceConfiguration.class
+com/mainclass/customerservice/webapi/CreateCustomerResponse.class
+com/mainclass/customerservice/model/CustomerRepository.class
+com/mainclass/customerservice/service/CustomerService.class
+com/mainclass/customerservice/commandhandlers/CustomerServiceCommandHandlers.class
+com/mainclass/customerservice/model/Customer.class
+com/mainclass/customerservice/controller/CustomerController.class
+com/mainclass/customerservice/model/CustomerDomainEventPublisher.class
+com/mainclass/customerservice/commandhandlers/CustomerServiceCommandHandlersConfiguration.class
+com/mainclass/customerservice/CustomerServiceApplication.class

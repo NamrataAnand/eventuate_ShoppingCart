@@ -1,0 +1,10 @@
+com/mainclass/invoiceservice/swagger/SwaggerConfig.class
+com/mainclass/invoiceservice/commandhandlers/InvoiceServiceCommandHandlersConfiguration.class
+com/mainclass/invoiceservice/commandhandlers/InvoiceServiceCommandHandlers.class
+com/mainclass/invoiceservice/model/Invoice.class
+com/mainclass/invoiceservice/model/InvoiceDomainEventPublisher.class
+com/mainclass/invoiceservice/InvoiceServiceApplication.class
+com/mainclass/invoiceservice/service/InvoiceService.class
+com/mainclass/invoiceservice/controller/InvoiceController.class
+com/mainclass/invoiceservice/service/InvoiceServiceConfiguration.class
+com/mainclass/invoiceservice/model/InvoiceRepository.class

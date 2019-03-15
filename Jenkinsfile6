@@ -1,0 +1,36 @@
+pipeline {
+	agent none    
+stages {
+	stage('Stop CDCService') {
+		agent any
+		steps {
+			sh 'docker stop cdcservice'
+		}
+	}
+	stage('Stop Kafka') {
+		agent any
+		steps {
+			sh 'docker stop kafka'
+		}
+	}
+	stage('Stop Zookeeper') {
+		agent any
+		steps {
+			sh 'docker stop zookeeper'
+		}
+	}
+	stage('Stop Mongodb') {
+		agent any
+		steps {
+			sh 'docker stop mongodb'
+		}
+	}
+	stage('Stop Mysql') {
+		agent any
+		steps {
+			sh 'docker stop mysql'
+		}
+	}
+	
+  }
+}

@@ -1,0 +1,30 @@
+pipeline {
+	agent none    
+stages {
+	stage('Stop Order Service') {
+		agent any
+		steps {
+			sh 'docker stop order-service'
+		}
+	}
+	stage('Stop Order View Service') {
+		agent any
+		steps {
+			sh 'docker stop order-view-service'
+		}
+	}
+	stage('Stop Customer Service') {
+		agent any
+		steps {
+			sh 'docker stop customer-service'
+		}
+	}
+	stage('Stop Invoice Service') {
+		agent any
+		steps {
+			sh 'docker stop invoice-service'
+		}
+	}
+	
+  }
+}
